@@ -19,3 +19,7 @@ https://github.com/vadimshchukin/java-ebcdic/releases/download/release/ebcdic.ja
 javac mainframe/ebcdic/CharsetProvider.java
 jar cf ebcdic.jar mainframe META-INF
 ```
+
+## Setting up JetBrains DataGrip IDE
+- Add ebcdic.jar to the "Driver Files" of the JDBC driver
+- Data Source → Advanced → Expert options → Uncheck "Isolate class path"
